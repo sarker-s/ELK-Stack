@@ -158,7 +158,7 @@ GET demolog?pretty
 ```
 % aws ec2 terminate-instances --instance-ids <value> --region-name <aws-region-id>
 % aws es delete-elasticsearch-domain --domain-name demo-es --region-name <aws-region-id>
-
+```
 # References
 
 https://www.elastic.co/guide/en/elasticsearch/reference/5.2/rpm.html
