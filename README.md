@@ -82,6 +82,7 @@ $ sudo python apache-fake-log-gen.py -n 0 -s 1 -o LOG -p /var/log/apache/ &
 $ cd /var/log/apache/  
 
 ### Start and Shutdown Logstash
+
 $ sudo bin/logstash -f /etc/logstash/conf.d/logstash.conf
 $ ps -ef | grep logstash  
 $ sudo kill <process-id> 
