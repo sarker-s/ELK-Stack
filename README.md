@@ -6,6 +6,7 @@ Launch an EC2 instance with Linux AMI and SSH to perform the following
 
 $ java -version  
 $ sudo yum remove java-1.7.0-openjdk -y
+
 $ sudo yum install java-1.8.0 -y   
 $ sudo nano /etc/yum.repos.d/logstash.repo  
 ```
