@@ -84,6 +84,7 @@ $ cd /var/log/apache/
 ### Start and Shutdown Logstash
 
 $ sudo bin/logstash -f /etc/logstash/conf.d/logstash.conf
+
 $ ps -ef | grep logstash  
 $ sudo kill <process-id> 
 
