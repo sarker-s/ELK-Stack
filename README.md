@@ -25,7 +25,7 @@ $ sudo yum install logstash -y
 
 $ cd /usr/share/logstash/  
 $ ll  
-$ nano bin/logstash-plugin install logstash-output-amazon_es  
+$ sudo bin/logstash-plugin install logstash-output-amazon_es  
 
 # logstash configuration
 
